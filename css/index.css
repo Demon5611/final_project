@@ -16,7 +16,6 @@
     text-align: center;
     margin-top: 44px;
     margin-bottom: 86px;
-
     color: #4520ab;
     font-family: 'IBM Plex Mono';
     font-style: normal;
@@ -72,25 +71,24 @@
 /* выбрать все дочерние элементы элемента, кроме последнего элемента.*/
 .russian,
 .russian_cut:not(:last-child) {
-    border-bottom: 1px solid black;
+ border-bottom: 1px solid black;
 }
 .russian,
 .russian_cut:first-child {
-    border-top-left-radius: 8px;
+ border-top-left-radius: 8px;
 }
 .russian + .russian_cut:last-child {
-    border-bottom-left-radius: 8px;
+ border-bottom-left-radius: 8px;
 }
 
 .english + .english_cut:not(:last-child) {
 }
 .english + .english_cut:first-child {
-    border-top-right-radius: 8px;
+ border-top-right-radius: 8px;
 }
 .english,
 .english_cut:last-child {
-    border-bottom-right-radius: 8px;
-    /* border-bottom: none; */
+ border-bottom-right-radius: 8px;
 }
 
 .russian,
@@ -148,7 +146,6 @@
 .delete {
     border-radius: 45px;
     display: flex;
-    /* margin-left: 140px; */
     margin-right: 5px;
 }
 
@@ -158,7 +155,6 @@
     display: inline-block;
     justify-self: flex-start;
     align-items: center;
-
     background: #ccc9c9;
     border-radius: 8px;
     width: 176px;
@@ -187,7 +183,6 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        /* display: table-column; */
         max-width: 328px;
         height: auto;
     }
