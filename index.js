@@ -42,7 +42,7 @@ function addNewWord() {
   const btnDel = document.createElement("button");
   const newImg = document.createElement("img");
   newImg.className = "english_krestik";
-  newImg.src = "./icons/krestik.svg";
+  newImg.src = "./icon/krestik.svg";
   newImg.alt = "#";
   btnDel.style.cssText = `
   border-radius: 45px;
@@ -75,7 +75,7 @@ function addNewWord() {
     const btnDel = document.createElement("button");
     const newImg = document.createElement("img");
     newImg.className = "english_krestik";
-    newImg.src = "./icons/krestik.svg";
+    newImg.src = "./icon/krestik.svg";
     newImg.alt = "#";
     btnDel.style.cssText = `
     border-radius: 45px;
