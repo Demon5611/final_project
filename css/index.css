@@ -141,6 +141,7 @@
     hyphens: auto;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: none;
 }
 /*================т*/
 .delete {
