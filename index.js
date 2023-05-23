@@ -133,10 +133,10 @@ function addNewWord() {
 }
 
 // удаление по кнопке Очистить Все ================
-window.addEventListener("load", (event) => {
-  document.querySelector(".btnErase").onclick = function () {
-    location.reload(true);
-  };
+document.querySelector(".btnErase").addEventListener("click", (event) => {
+   location.reload(true);
+})
+
 });
 
 // ===function translit=============
